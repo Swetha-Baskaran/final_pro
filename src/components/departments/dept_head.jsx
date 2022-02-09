@@ -31,7 +31,9 @@ export default function DeptHeader()
             <Link to="/cse/courses-and-curriculum">
             <p>SYLLABUS <AiFillCaretDown/></p>
             </Link>
-            <p>RESEARCH </p>
+             <Link to="/cse/alumini">
+             <p>RESEARCH</p>
+             </Link>
             <Link to="/cse/facilities">
             <p>FACILITIES </p>
             </Link>

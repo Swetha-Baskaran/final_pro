@@ -5,6 +5,7 @@ import NewsPTU from "../home/news/NewsPTU"
 import HodCard from "./hod_card"
 import About from './About';
 import Faculty from './Faculty';
+import Notice from "./notice"
 import { Link } from "react-router-dom";
 import Vision from './vision';
 
@@ -15,7 +16,8 @@ const DeptLandingPage = () => {
       </Link>
       <About />
       <Vision />
-      <NewsPTU/>
+      {/* <NewsPTU/> */}
+      <Notice />
       <Faculty />
       <div className="gallery_dept">
         <Gallery/>

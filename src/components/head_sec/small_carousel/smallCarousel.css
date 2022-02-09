@@ -24,53 +24,45 @@
 
 .card-cont button{
     cursor: pointer;
-    /* background: #fff; */
-    background-color: rgb(148, 148, 148);
+    background-color: rgba(192, 192, 192, 0.712);
     box-shadow: none;
     color: #fff;
-    /* color: #000; */
 }
 
 .small-cont{
     border-radius: 20px;
     width: 450px;
-    height: 210px;
-    background-color: #bbb8c1eb;
-    /* background: rgb(165, 164, 164); */
+    height: 250px;
+    background-color: #bbb8c19c;
+    color: black;
     padding: 15px 10px 0px 20px;
     margin: 10px;
     box-shadow: 0 0 4px #0000003d;
     text-align: left;
-    border-radius: 10px;
-    /* width: 450px; */
-    /* height: 213px; */
-    /* background-color: #c1bdb8d9; */
-    /* padding: 15px 10px 0px 20px; */
-    /* margin: 10px; */
-    box-shadow: 0 0 4px #0000003d;
-    /* text-align: left; */
-
+    border-radius: 5px;
+    box-shadow: 0 0 19px 4px #000000a6;
 }
 
 .parts img{
     height: 160px;
-    width:340px;
+    width:550px;
+    margin-top: 20px;
 }
 
 .parts p{
     margin: 18px 14px 0px 14px;
-    /* font-size: 12px; */
-    /* margin: -3px 14px 4px 14px; */
+    margin: 6px 14px 4px 14px;
     font-size: 15px;
 }
 
 .parts h4{
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .parts h6{
     margin-top: 10px;
     margin-left: 10px;
-    /* padding: 6px 12px 0px 12px; */
+    font-weight: 700;
 }
+

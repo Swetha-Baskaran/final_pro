@@ -13,27 +13,32 @@ const About = () => {
         <div className="title_of-dept">
             <div className="numbers flex gap-24">
               <p>
-                <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">B.tech students</h3>
+                <h5 className="numberse_here">481+</h5>
+                <h3 className="name_here">B.Tech students</h3>
               </p>
               
               <p>
-                <h5 className="numberse_here">455+</h5>
-                <h3 className="name_here">M.tech students</h3>
+                <h5 className="numberse_here">20+</h5>
+                <h3 className="name_here">M.Tech DS</h3>
+              </p>
+
+              <p>
+                <h5 className="numberse_here">19+</h5>
+                <h3 className="name_here">M.Tech IS</h3>
               </p>
               
               <p>
-                <h5 className="numberse_here">455+</h5>
+                <h5 className="numberse_here">84+</h5>
                 <h3 className="name_here">MCA students</h3>
               </p>
               
               <p>
-                <h5 className="numberse_here">455+</h5>
+                <h5 className="numberse_here">85+</h5>
                 <h3 className="name_here">Phd students</h3>
               </p>
 
               <p>
-                <h5 className="numberse_here">455+</h5>
+                <h5 className="numberse_here">24+</h5>
                 <h3 className="name_here">Faculty</h3>
               </p>
               

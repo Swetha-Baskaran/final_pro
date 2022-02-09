@@ -13,6 +13,7 @@ import Facilities from "./Facilities"
 import Research from "./research"
 import Notices from "../departments/notice"
 import Footer from "../footer/Footer"
+import Alumini from "./Alumini";
 
 export default function Cse(){
 
@@ -39,6 +40,9 @@ export default function Cse(){
         </Routes>
         <Routes>
             <Route path="/course-and-curriculum" element={<Courses/>} />
+        </Routes>
+        <Routes>
+            <Route path="/alumini" element={<Alumini/>} />
         </Routes> 
         <Footer/>
         </>

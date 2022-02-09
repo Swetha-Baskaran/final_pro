@@ -5,7 +5,7 @@ import { MdOutlineTravelExplore } from "../../../node_modules/react-icons/md"
 import bg from "../../images/success.jpg"
 
 let bgObj = {
-          background: `url(${bg})`,
+          // background: `url(${bg})`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
           backgroundRepeat: "no-repeat",
@@ -14,7 +14,7 @@ let bgObj = {
 const Vision = () => {
   return <div className='pb-10' style={bgObj}>      
       <div className="vision-hold p-10 m-10">
-         <h2>Vision and Mission</h2>
+         <h2 className='text-6xl text-black'>Vision and Mission</h2>
       </div>
       <div className="vision-content my-10 px-20">
           <p className='p-2 m-0'><MdOutlineTravelExplore/>To explore innovative approaches to enhance and expand learning opportunities, through the integration of technology.</p>

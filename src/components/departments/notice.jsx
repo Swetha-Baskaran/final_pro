@@ -39,7 +39,7 @@ export default function Notices()
             <div className="news-part col-span-4">
                 <div className="notice-head">
                     <div className="head-head">
-                       <h2>Bullatin board</h2>
+                       <h2>Bulletin board</h2>
                     </div>
                     <div className="update-part">
                         {
@@ -56,13 +56,13 @@ export default function Notices()
                     <br />
                     <ol className="not-ol text-left">
                         <br />
-                        <li className="not-li">Departmental Commities</li>
-                        <li className="not-li">Notable alumini</li>
-                        <li className="not-li">Placement Detials</li>
-                        <li className="not-li">Medals & awards</li>
-                        <li className="not-li">Retired Faculty</li>
+                        <li className="not-li">Departmental Committies</li>
+                        <li className="not-li">Notable Alumini</li>
+                        <li className="not-li">Placement Details</li>
+                        <li className="not-li">Medals & Awards</li>
+                        <li className="not-li">Department's Retired Faculties</li>
                         <li className="not-li">Students</li>
-                        <li className="not-li">Departmental Events</li>
+                        <li className="not-li">Department Events</li>
                     </ol>
                 </div>
             </div>

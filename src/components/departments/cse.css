@@ -305,3 +305,31 @@ text-transform: uppercase;
     background-repeat: no-repeat;
     border-radius: 21px;
 }
+
+
+.colour{
+   background-color: #0d0c3bc0;
+}
+
+.carrd{
+    box-shadow: 0 0 7px #0000009f;
+}
+
+.alumini-img{
+    width: 700px;
+    height: 200px;
+}
+
+.alumini-hold{
+    background-color: #9f9e9e26
+}
+
+.alumini-part h3{
+    font-size: 20px;
+}
+
+.alumini-box{
+    background: white;
+    padding: 25px;
+    box-shadow: 0 0 20px #0000002e;
+}

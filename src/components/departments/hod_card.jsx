@@ -1,6 +1,7 @@
 import React from "react";
 
-// import { CardParts } from "../head_sec/small_carousel";
+import "../head_sec/small_carousel/smallCarousel.css"
+
 import img from '../../images/ZayarazG.png'
 
 export default function HodCard (){
