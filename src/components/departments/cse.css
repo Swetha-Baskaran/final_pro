@@ -250,10 +250,11 @@ text-transform: uppercase;
 
 .dep-h{
     text-align: left;
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(46, 42, 83);
     padding: 10px 0px;
     font-weight: bold;
+    margin: 10px 0px;
 }
 
 .d-read{

@@ -31,10 +31,10 @@ export default function Cse(){
             <Route path="/" element={<DeptLandingPage/>} />
         </Routes>
         <Routes>
-            <Route path="/about" element={<About/>} />
+            <Route path="/about" element={<DeptLandingPage />} />
         </Routes>
         <Routes>
-            <Route path="/faculty" element={<Courses/>} />
+            <Route path="/faculty" element={<Faculty />} />
         </Routes>
         <Routes>
             <Route path="/notices" element={<Notices1 />} />
@@ -43,10 +43,10 @@ export default function Cse(){
             <Route path="/facilities" element={<Facilities />} />
         </Routes>
         <Routes>
-            <Route path="/notices" element={<Notices/>} />
+            <Route path="/notices" element={<Notices />} />
         </Routes>
         <Routes>
-            <Route path="/course-and-curriculum" element={<Courses/>} />
+            <Route path="/syllabus" element={<Courses/>} />
         </Routes>
         <Routes>
             <Route path="/alumini" element={<Alumini/>} />

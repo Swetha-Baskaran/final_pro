@@ -7,6 +7,8 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 import "./cse.css";
 import civil  from "../../images/civil.jpg"
 
+import { Link } from "react-router-dom"
+
 function srcset(image, width, height, rows = 1, cols = 1) {
   return {
     src: `${image}?w=${width * cols}&h=${height * rows}&fit=crop&auto=format`,
@@ -50,12 +52,12 @@ export default function CustomImageList() {
                 title={item.title}
                 position="top"
                 actionIcon={
-                //     <IconButton
-                //     sx={{ color: 'white' }}
-                //     aria-label={`star ${item.title}`}
-                //     >
-                //   {/* <StarBorderIcon /> */}
-                // </IconButton>
+                    <IconButton
+                    sx={{ color: 'white' }}
+                    aria-label={`star ${item.title}`}
+                    >
+                  {/* <StarBorderIcon /> */}
+                </IconButton>
               }
               actionPosition="left"
               />

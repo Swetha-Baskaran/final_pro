@@ -10,26 +10,17 @@ import About from './About';
 import Faculty from './Faculty';
 import Notice from "./notice"
 import Vision from './vision';
-// >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
 
 const DeptLandingPage = () => {
   return (<div>
-      <Link to="/about">
-{/* <<<<<<< HEAD */}
-       {/* <HodCard /> */}
-{/* ======= */}
+      <Link to="/cse/about">
          <HodCard />
-{/* >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e */}
       </Link>
       <About />
       <Vision />
-      {/* <NewsPTU/> */}
       <Notice />
       <Faculty />
-      <div className="gallery_dept">
-        <Gallery/>
-      </div>
-        <Testimonial />
+      <Testimonial />
   </div>);
 };
 

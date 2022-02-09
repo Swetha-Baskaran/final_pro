@@ -2,6 +2,8 @@ import React from "react";
 
 import "./notice.css"
 
+import { Link } from "react-router-dom"
+
 import '../home/news/newsPTU.css';
 
 let newsObj = [
@@ -57,7 +59,7 @@ export default function Notices()
                     <ol className="not-ol text-left">
                         <br />
                         <li className="not-li my-10">Departmental Committies</li>
-                        <li className="not-li my-10">Notable Alumini</li>
+                        <Link to="/cse/alumini"><li className="not-li my-10">Notable Alumini</li></Link>
                         <li className="not-li my-10">Placement Details</li>
                         <li className="not-li my-10">Medals & Awards</li>
                         <li className="not-li my-10">Department's Retired Faculties</li>

@@ -32,20 +32,15 @@ export default function DeptHeader()
             <Link to="/cse/faculty">
             <p>FACULTY  <AiFillCaretDown/></p>
             </Link>
-            <Link to="/cse/courses-and-curriculum">
-            <Link to="/cse/Facilities">
+            <Link to="/cse/syllabus">
             <p>SYLLABUS <AiFillCaretDown/></p>
             </Link>
-            </Link>
-             <Link to="/cse/alumini">
+             <Link to="/cse/researches">
              <p>RESEARCH</p>
              </Link>
             <Link to="/cse/facilities">
             <p>FACILITIES </p>
             </Link>
-            {/* <Link to="/cse/notices">
-            <p>NOTICES </p>
-            </Link> */}
             <Link to="/cse/about">
             <p>ABOUT</p>
             </Link>
