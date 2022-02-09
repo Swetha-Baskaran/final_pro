@@ -10,8 +10,12 @@ import Courses from "./Courses"
 import Faculty from "./Faculty"
 import DeptLandingPage from "./DeptLandingPage"
 import Facilities from "./Facilities"
+<<<<<<< HEAD
+import Notices from "./Notices"
+=======
 import Research from "./research"
 import Notices from "../departments/notice"
+>>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
 import Footer from "../footer/Footer"
 import Alumini from "./Alumini";
 
@@ -37,6 +41,9 @@ export default function Cse(){
         </Routes>
         <Routes>
             <Route path="/facilities" element={<Research />} />
+        </Routes>
+        <Routes>
+            <Route path="/notices" element={<Notices/>} />
         </Routes>
         <Routes>
             <Route path="/course-and-curriculum" element={<Courses/>} />

@@ -93,25 +93,21 @@ export default function Faculty(){
     let image = facultyData[state].img
 
     return(
-        <div className='faculty grid grid-cols-7 my-35'>
-            <div className="big col-span-4 p-10 pl-20">
+        <>
+        <div className='faculty grid grid-cols-7 py-20'>
+            <div className="big col-span-4">
                 <div className="fac-info flex">
                    <div className="big-img">
-                      <img src={image} />
+                      <img src={image} alt="" />
                    </div>  
-                   <div className="big-cont my-20 mx-5">
+                   <div className="big-cont">
                        <p>Name : {name}</p>   
                        <p>Qualification : {qualify}</p>   
                        <p>Years of Experience : {Year}</p>   
                        <p>Subject : {sub}</p>   
                     </div>       
                 </div>
-                <div className='py-10'>
-                  <div className='fac-msg text-left'>{msg}</div>
-                     <div className='text-left'>
-                        <button className='btn-read'>Read more</button>
-                     </div>
-                </div>
+                <div className='fac-msg'>{msg}</div>
             </div>
             <div className="small col-span-3 mx-10">
              {
@@ -127,9 +123,28 @@ export default function Faculty(){
                              </div>
                          </div>
                      )
-                 })   
-             }
+                    })   
+                }
+             {
+                 facultyData.map( (e, index) =>{
+                     return (
+                         <div className="small-cards flex justify-left px-10 py-5" onClick={()=>{setState(index)}}>
+                             <div className="parts1">
+                                 <img  className="faculty-img" src={e.img} alt="" />
+                             </div>
+                             <div className="parts2 px-5">
+                                 <h5 className='text-bold'>{e.name}</h5>
+                                 <h6>{e.qualification}</h6>
+                             </div>
+                         </div>
+                     )
+                    })   
+                }
             </div>
         </div>
+        {/* <div className="grid grid-cols-3">
+                abcd
+        </div> */}
+                </>
     )
 }
