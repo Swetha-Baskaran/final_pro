@@ -70,18 +70,16 @@ div.ccCard>form>input:focus {
 
 .cc-see-more{
     cursor: pointer;
-    margin-top: 20px;;
     padding: 5px 20px;
     width: 50%;
     font-size: large;
-    position: relative;
-    transform: translateX(-50%);
     left: 50%;
     text-align: center;
     border-radius: 10px;
     color: white;
     background: var(--themeC);
     box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    margin-bottom: 20px;
 }
 div.formC>form>button:hover{
     opacity: 90%;

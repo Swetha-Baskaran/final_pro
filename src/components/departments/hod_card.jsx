@@ -14,9 +14,7 @@ export default function HodCard (){
           <div className="parts">
               <h4>Dr. G. Zayaraz</h4>
               <h6>Hod cse department</h6>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque a magnam nam tempora cum iusto
-                   cupiditate non. Provident corporis explicabo distinctio maxime impedit debitis ad, rerum earum dolorem non
-                    placeat?</p>
+              <p>Welcome to the department of computer science and technology. Here we will explore  This is the message by cse hod.</p>
           </div>
         </div>
             </div>

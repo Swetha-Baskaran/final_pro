@@ -11,35 +11,47 @@ const About = () => {
            <div className="dept-title text-left">CSE Department</div>
         </div>
         <div className="title_of-dept">
-            <div className="numbers flex gap-24">
-              <p>
-                <h5 className="numberse_here">481+</h5>
-                <h3 className="name_here">B.Tech students</h3>
+            <div className="numbers grid grid-cols-3 gap-24">
+              <p className='col-span-1'>
+                <h5 className="numberse_here">481</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">B.Tech students</h3>
+                </div>
               </p>
               
-              <p>
-                <h5 className="numberse_here">20+</h5>
-                <h3 className="name_here">M.Tech DS</h3>
+              <p className='col-span-1'>
+                <h5 className="numberse_here">20</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">M.Tech <br />Data Science</h3>
+                </div>
               </p>
 
-              <p>
-                <h5 className="numberse_here">19+</h5>
-                <h3 className="name_here">M.Tech IS</h3>
+              <p className='col-span-1'>
+                <h5 className="numberse_here">19</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">M.Tech <br />Information Secutiy</h3>
+                </div>
               </p>
               
-              <p>
-                <h5 className="numberse_here">84+</h5>
-                <h3 className="name_here">MCA students</h3>
+              <p className='col-span-1'>
+                <h5 className="numberse_here">84</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">MCA students</h3>
+                </div>
               </p>
               
-              <p>
-                <h5 className="numberse_here">85+</h5>
-                <h3 className="name_here">Phd students</h3>
+              <p className='col-span-1'>
+                <h5 className="numberse_here">85</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">Ph.D students</h3>
+                </div>
               </p>
 
-              <p>
-                <h5 className="numberse_here">24+</h5>
-                <h3 className="name_here">Faculty</h3>
+              <p className='col-span-1'>
+                <h5 className="numberse_here">24</h5>
+                <div className='numbers_name'>
+                <h3 className="name_here text-4xl text-center">Faculty</h3>
+                </div>
               </p>
               
             </div>

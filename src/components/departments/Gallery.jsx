@@ -37,7 +37,7 @@ export default function CustomImageList() {
         return (
           <ImageListItem>
           <img
-              {...srcset(item.img, 250, 200, rows, cols)}
+              {...srcset(item.img, 350, 300, rows, cols)}
               alt={item.title}
               loading="lazy"
               />
@@ -50,12 +50,12 @@ export default function CustomImageList() {
                 title={item.title}
                 position="top"
                 actionIcon={
-                    <IconButton
-                    sx={{ color: 'white' }}
-                    aria-label={`star ${item.title}`}
-                    >
-                  <StarBorderIcon />
-                </IconButton>
+                //     <IconButton
+                //     sx={{ color: 'white' }}
+                //     aria-label={`star ${item.title}`}
+                //     >
+                //   {/* <StarBorderIcon /> */}
+                // </IconButton>
               }
               actionPosition="left"
               />

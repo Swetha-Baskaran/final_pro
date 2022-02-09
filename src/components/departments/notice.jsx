@@ -52,17 +52,17 @@ export default function Notices()
             </div>
             <div className="news-part col-span-2 mr-5">
                 <div className="px-20">
-                    <div className="text-center"><h3 className="not-text text-4xl">quick links</h3></div>
+                    <div className="text-center"><h3 className="not-text pl-5 text-center text-4xl">Departmental links</h3></div>
                     <br />
                     <ol className="not-ol text-left">
                         <br />
-                        <li className="not-li">Departmental Committies</li>
-                        <li className="not-li">Notable Alumini</li>
-                        <li className="not-li">Placement Details</li>
-                        <li className="not-li">Medals & Awards</li>
-                        <li className="not-li">Department's Retired Faculties</li>
-                        <li className="not-li">Students</li>
-                        <li className="not-li">Department Events</li>
+                        <li className="not-li my-10">Departmental Committies</li>
+                        <li className="not-li my-10">Notable Alumini</li>
+                        <li className="not-li my-10">Placement Details</li>
+                        <li className="not-li my-10">Medals & Awards</li>
+                        <li className="not-li my-10">Department's Retired Faculties</li>
+                        <li className="not-li my-10">Students</li>
+                        <li className="not-li my-10">Department Events</li>
                     </ol>
                 </div>
             </div>

@@ -337,3 +337,9 @@ text-transform: uppercase;
     padding: 25px;
     box-shadow: 0 0 20px #0000002e;
 }
+
+/* numbers of about */
+
+.numbers_name{
+    text-align: center;
+}
