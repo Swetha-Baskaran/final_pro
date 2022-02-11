@@ -1,7 +1,7 @@
 {
   "name": "pec_website",
   "version": "0.0.0",
-  "homepage": "https://github.com/Swetha-Baskaran/PTU_college_website.git",
+  "homepage": "https://github.com/Swetha-Baskaran/Host_pec_website.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
