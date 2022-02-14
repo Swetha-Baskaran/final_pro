@@ -69,7 +69,17 @@ let facultyData = [
 ]
 
 export default function Faculty(){
+     return (
+         <>
+           <Faculty_single Fname="Professors" />
+           <Faculty_single Fname="Associate professors" />
+           <Faculty_single Fname="Assistant professors" />
+         </>
+     ) 
+}
 
+
+function Faculty_single({ Fname }){
     let [state, setState] = useState(0)
 
     let name = facultyData[state].name  
@@ -80,9 +90,10 @@ export default function Faculty(){
 
     return(
         <>
-        <div className='faculty grid grid-cols-7 py-20'>
+        <div className='faculty block md:grid md:grid-cols-7 py-20'>
             <div className="big col-span-4">
-                <div className="fac-info flex">
+                <div className='our-fac'>{ Fname }</div>
+                <div className="big-in fac-info flex">
                    <div className="big-img">
                       <img src={image} alt="" />
                    </div>  
@@ -96,7 +107,7 @@ export default function Faculty(){
                     </div>       
                 </div>
             </div>
-            <div className="small col-span-3 mx-10">
+            <div className="small block col-span-3 mx-10">
              {
                  facultyData.map( (e, index) =>{
                      return (
@@ -112,13 +123,8 @@ export default function Faculty(){
                      )
                     })   
                 }
-             
-    
             </div>
         </div>
-        {/* <div className="grid grid-cols-3">
-                abcd
-        </div> */}
                 </>
     )
 }

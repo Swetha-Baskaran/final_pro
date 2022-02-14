@@ -16,11 +16,10 @@ const DeptLandingPage = () => {
       <Link to="/cse/about">
          <HodCard />
       </Link>
-      <About />
-      <Vision />
-      <Notice />
-      <Faculty />
-      <Testimonial />
+         <About />
+         <Vision />
+         <Notice />
+         <Testimonial />
   </div>);
 };
 

@@ -1,21 +1,16 @@
 import React from "react"
 import './cse.css'
-import Hod from "./hod"
 
 import DeptHeader from "./dept_head"
-// import Faculty from "./faculty"
-import { Routes, Route, Link } from "react-router-dom";
-import About from "./About"
+import { Routes, Route} from "react-router-dom";
+
 import Courses from "./Courses"
 import Faculty from "./Faculty"
 import DeptLandingPage from "./DeptLandingPage"
 import Facilities from "./Facilities"
-// <<<<<<< HEAD
 import Notices1 from "./Notices"
-// =======
-import Research from "./research"
+import Research from "./reasearch_part"
 import Notices from "./notice"
-// >>>>>>> c5730b8a49a608998323a46828d2d66c52e9228e
 import Footer from "../footer/Footer"
 import Alumini from "./Alumini";
 
@@ -24,9 +19,6 @@ export default function Cse(){
     return (
         <> 
         <DeptHeader />
-        {/* <About/> */}
-        {/* <Faculty/> */}
-        {/* <Facilities/> */}
         <Routes>
             <Route path="/" element={<DeptLandingPage/>} />
         </Routes>
@@ -50,6 +42,9 @@ export default function Cse(){
         </Routes>
         <Routes>
             <Route path="/alumini" element={<Alumini/>} />
+        </Routes> 
+        <Routes>
+            <Route path="/research" element={<Research/>} />
         </Routes> 
         <Footer/>
         </>

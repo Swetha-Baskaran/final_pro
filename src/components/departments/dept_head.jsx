@@ -10,7 +10,7 @@ export default function DeptHeader()
     return(
         <>
             <div className="deptHead">
-                <div className="header_dept">
+                <div className="header_dept flex justify-around">
                     <div className="title_dept">
                         <h3>Computer Science Department</h3>
                     </div>
@@ -29,21 +29,23 @@ export default function DeptHeader()
 
 
             <div className="navbar_for_dept">
-            <Link to="/cse/faculty">
-            <p>FACULTY  <AiFillCaretDown/></p>
-            </Link>
-            <Link to="/cse/syllabus">
-            <p>SYLLABUS <AiFillCaretDown/></p>
-            </Link>
-             <Link to="/cse/researches">
-             <p>RESEARCH</p>
-             </Link>
-            <Link to="/cse/facilities">
-            <p>FACILITIES </p>
-            </Link>
-            <Link to="/cse/about">
-            <p>ABOUT</p>
-            </Link>
+              <div className="nav-inside flex justify-center">
+                 <Link to="/cse/faculty">
+                 <p>FACULTY  <AiFillCaretDown/></p>
+                 </Link>
+                 <Link to="/cse/syllabus">
+                 <p>SYLLABUS <AiFillCaretDown/></p>
+                 </Link>
+                  <Link to="/cse/research">
+                  <p>RESEARCH</p>
+                  </Link>
+                 <Link to="/cse/facilities">
+                 <p>FACILITIES </p>
+                 </Link>
+                 <Link to="/cse/about">
+                 <p>ABOUT</p>
+                 </Link>
+              </div>
             </div>
         </>
     )

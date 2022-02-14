@@ -9,8 +9,27 @@
     height: 80px;
 }
 
+.big-in{
+    padding: 40px 26px;
+    background: #8080801a;
+    height: max-content;
+}
+
+.big{
+    margin: 20px;
+}
+
 .big-cont p {
    margin: 10px 10px;
+}
+
+.our-fac{
+    background: #8080801a;
+    padding: 10px 0px 10px 33px;
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .btn-read{
@@ -20,8 +39,14 @@
 }
 
 .small{
-    height: 500px;
+    height: 465px;
     overflow-y: scroll;
+}
+
+.small-cards{
+    background: #8080801a;
+    margin: 10px 0px;
+    padding: 20px 0px 20px 32px;
 }
 
 .parts2{
@@ -211,15 +236,12 @@ text-transform: uppercase;
 .navbar_for_dept{
     position:sticky;
     top: 0;
-    
     display: flex;
-    padding: 1rem;
+    /* padding: 14px; */
     justify-content:center;
     background: rgb(211, 38, 38);
-    /* background: linear-gradient(90deg, rgba(255,184,184,1) 0%, rgba(255,255,255,1) 51%, rgba(255,184,184,1) 9%); */
     color: #fff;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 23px;
     z-index: 11000;
 }
 
@@ -245,21 +267,31 @@ text-transform: uppercase;
 /* about part of dept */
 
 .dep-p{
-    margin: 0
+    margin: 20px 0px;
 }
 
 .dep-h{
+    text-shadow: 0 0 20px #0000008a;
     text-align: left;
-    font-size: 35px;
+    font-size: 37px;
     color: rgb(46, 42, 83);
     padding: 10px 0px;
-    font-weight: bold;
-    margin: 10px 0px;
+    margin: 10px 0px 30px 0px;
+    line-height: 40px;
 }
 
 .d-read{
-    font-size: 19px;
-    background-color: #656EAF;
+    font-size: 16px;
+    background-color: #6471be;
+    border-radius: 2px;
+    box-shadow: 0 0 20px #0000005e;
+    padding: 6px 17px;
+    transition: 0.5s;
+}
+
+.d-read:hover{
+    box-shadow: none;
+    background-color: #a90909;
 }
 
 .numberse_here{
@@ -274,7 +306,7 @@ text-transform: uppercase;
 
 .explore{
     display:flex;
-    /* justify-content:end; */
+    font-size: 23px;
     width: 100%;
     position: relative;
     padding-left: 60px;
@@ -285,9 +317,9 @@ text-transform: uppercase;
     content: "";
     top: 15px;
     left: -1px;
-     background-color:brown;
-     width: 50px;
-     height: 1px;
+    background-color: rgb(251 0 0);
+    width: 52px;
+    height: 2px;
 }
 
 .dept-title{
@@ -300,15 +332,18 @@ text-transform: uppercase;
 
 .vision-content{
     background: #f1ecec6b;
-    margin: 0px 95px 40px 95px;
+    margin: 0px 30px 40px 30px;
     color: #13123e;
-    padding: 37px;
+    padding: 30px 2px;
     font-size: 19px;
-    box-shadow: 0 0 18px 1px #b9b2b254, 0 0 2px 0px #000000;
+    box-shadow: 0 0 19px 0px #b9b2b291, 0 0 1px 0px #000000;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    border-radius: 21px;
+    border-radius: 6px;
+    text-align: left;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
 }
 
 
@@ -343,4 +378,91 @@ text-transform: uppercase;
 
 .numbers_name{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name_here{
+    font-size: 18px;
+}
+
+.numbers p{
+    background: #ffffff38;
+    box-shadow: 0 0 20px 6px #0000000d;
+    padding: 10px 20px;
+}
+
+.dept-title{
+    font-size: 45px;
+    text-align: left;
+    color: rgb(8 12 50);
+    font-weight: 900;
+}
+
+.update{
+    background: white;
+    color: black;
+    text-align: left;
+    padding: 0px 0px;
+    margin: 10px 0px;
+}
+
+.update-part{
+    height: 420px;
+    overflow-y: scroll;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 900px){
+    .cse-hold{
+        display: block;
+    }
+    .title_of-dept{
+        margin: 30px 0px;
+    }
+
+    .news-corner{
+        display: block;
+    }
+
+    .faculty{
+        display: block;
+    }
+    .small{
+        display: flex;
+        overflow-y: hidden;
+        width: 93vw;
+        overflow-x: scroll;
+        height: max-content;
+    }
+    .small-cards{
+        display: flex;
+        height: max-content;
+        margin: 10px;
+    }
+    .parts1{
+        width: 200px;
+        height: max-content;
+    }
+}
+
+@media (max-width: 800px){
+    .nav-inside{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .big-in{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    .title_dept h3{
+        font-size: 12px;
+        text-align: left;
+    }
 }
