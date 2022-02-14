@@ -68,7 +68,7 @@ const About = () => {
           <br />
           <h5 className="dep-h text-4xl">About the Department</h5>
           <p className="dep-p py-10">
-          The Department of Economics was established in 1986. Over the last thirty two years, the Department has carved out a niche in economics education map of India. The Department discharges three functions, namely teaching, research and extension. So far, it has produced a large number of post-graduates, as well as M.Phil. and Ph.D. scholars who are placed in some of the premier institutions in the country and elsewhere. The Department has also emerged as a popular centre for training officials from government and corporate sectors, especially in the area of econometrics.
+          Computer Science Engineering (CSE) encompasses a variety of topics that relates to computation, like analysis of algorithms, programming languages, program design, software, and computer hardware. Computer Science engineering has roots in electrical engineering, mathematics, and linguistics.CSE programs also include core subjects of theoretical computer science such as theory of computation, numerical methods, machine learning, programming theory and paradigms.
           </p>
           <div className="d-btn-hold text-left">
              <button className="d-read px-5 py-2 text-white ">

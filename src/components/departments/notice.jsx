@@ -37,7 +37,7 @@ let newsObj = [
 export default function Notices()
 {
     return(
-        <div className="news-corner grid grid-cols-6 gap-4 my-20 mx-10">
+        <div className="news-corner md:grid grid-cols-6 gap-4 my-20 mx-10">
             <div className="news-part col-span-4">
                 <div className="notice-head">
                     <div className="head-head">
@@ -53,18 +53,18 @@ export default function Notices()
                 </div>
             </div>
             <div className="news-part col-span-2 mr-5">
-                <div className="px-20">
-                    <div className="text-center"><h3 className="not-text pl-5 text-center text-4xl">Departmental links</h3></div>
+                <div className="news-in-part px-10">
+                    <div className="flex justify-center"><h3 className="not-text text-center text-4xl">Departmental links</h3></div>
                     <br />
                     <ol className="not-ol text-left">
                         <br />
-                        <li className="not-li my-10">Departmental Committies</li>
-                        <Link to="/cse/alumini"><li className="not-li my-10">Notable Alumini</li></Link>
-                        <li className="not-li my-10">Placement Details</li>
-                        <li className="not-li my-10">Medals & Awards</li>
-                        <li className="not-li my-10">Department's Retired Faculties</li>
-                        <li className="not-li my-10">Students</li>
-                        <li className="not-li my-10">Department Events</li>
+                        <li className="not-li my-5">Departmental Committies</li>
+                        <Link to="/cse/alumini"><li className="not-li my-5">Notable Alumini</li></Link>
+                        <li className="not-li my-5">Placement Details</li>
+                        <li className="not-li my-5">Medals & Awards</li>
+                        <li className="not-li my-5">Department's Retired Faculties</li>
+                        <li className="not-li my-5">Students</li>
+                        <li className="not-li my-5">Department Events</li>
                     </ol>
                 </div>
             </div>

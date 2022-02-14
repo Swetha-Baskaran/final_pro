@@ -19,17 +19,24 @@
     margin: 20px;
 }
 
+.big-cont{
+    text-align: left;
+}
+
 .big-cont p {
    margin: 10px 10px;
+   text-align: left;
 }
 
 .our-fac{
-    background: #8080801a;
-    padding: 10px 0px 10px 33px;
-    font-size: 22px;
+    background: rgb(218 1 1);
+    padding: 5px 0px 5px 34px;
+    font-size: 25px;
     text-align: left;
     font-weight: bold;
     margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
 }
 
 .btn-read{
@@ -39,7 +46,7 @@
 }
 
 .small{
-    height: 465px;
+    height: 540px;
     overflow-y: scroll;
 }
 
@@ -47,6 +54,11 @@
     background: #8080801a;
     margin: 10px 0px;
     padding: 20px 0px 20px 32px;
+}
+
+.fac-name{
+    font-size: 23px;
+    font-weight: bolder;
 }
 
 .parts2{
@@ -194,7 +206,7 @@ image_for_dept{
     z-index: 1;
     display: flex;
     justify-content:space-between;
-    /* background-color: rgba(255, 255, 255, 0.75); */
+    align-self: center;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 1rem 2rem;
 }
@@ -206,13 +218,14 @@ image_for_dept{
 }
 
 .header_dept .searchbar_dept input{
-    border-radius: 5px;
-    background:rgba(87, 87, 87, 0.75);
-    outline:none;
+    border-radius: 35px;
+    background: rgba(87, 87, 87, 0.75);
+    outline: none;
     height: 100%;
     width: 100%;
     color: #fff;
-
+    padding: 4px 12px;
+    margin-right: 19px;
 }
 
 .header_dept .searchbar_dept input::placeholder{
@@ -223,6 +236,8 @@ image_for_dept{
     position: absolute;
     right: 10px;
     color: #fff;
+    font-size: 18px;
+    transform: translate(-41px, 4px);
 }
 
 .title_dept h3{
@@ -237,12 +252,18 @@ text-transform: uppercase;
     position:sticky;
     top: 0;
     display: flex;
-    /* padding: 14px; */
     justify-content:center;
     background: rgb(211, 38, 38);
     color: #fff;
     font-size: 23px;
     z-index: 11000;
+}
+
+.bars{
+    display: none;
+    padding: 10px 30px 10px 0px;
+    text-align: right;
+    z-index: 111;
 }
 
 .navbar_for_dept p{
@@ -408,6 +429,10 @@ text-transform: uppercase;
     margin: 10px 0px;
 }
 
+.card-p{
+    word-break: break-all;
+}
+
 .update-part{
     height: 420px;
     overflow-y: scroll;
@@ -450,8 +475,14 @@ text-transform: uppercase;
 }
 
 @media (max-width: 800px){
+    .navbar_for_dept{
+        justify-content: end;
+    }
     .nav-inside{
         display: none;
+    }
+    .bars{
+        display: block;
     }
 }
 

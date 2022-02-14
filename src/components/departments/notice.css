@@ -15,5 +15,11 @@
 .not-li{
     background-color: rgb(201, 186, 226);
     margin: 16px 0px;
-    padding: 5px;
+    padding: 5px 25px;
+}
+
+.news-in-part{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
 }

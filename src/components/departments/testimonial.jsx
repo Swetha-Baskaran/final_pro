@@ -20,9 +20,9 @@ export default function Testimonial()
                              return (
                             <div className="testi-card">
                                 <div className="card-text">
-                                    <p className="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <p className="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <p className="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
+                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
+                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
                                 </div>
                                 <div className="card-img flex align-center">
                                     <div className="img-pic">

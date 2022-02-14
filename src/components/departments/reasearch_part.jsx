@@ -14,7 +14,7 @@ export default function Research(){
                        <div class="boxx flex">
                           <div className="p-10">
                             <h2>01</h2>
-                            <h3>Reserch 1</h3>
+                            <h3>Research 1</h3>
                             <p className="R-para p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolore laborum, porro voluptatem temporibus, perspiciatis, eligendi molestiae eveniet nesciunt sunt officia rerum eaque.</p>
                           </div>
                           <div className="imgg" style={{"background" : `url(${img})`}}>
@@ -24,7 +24,7 @@ export default function Research(){
                         <div class="boxx flex">
                           <div className="p-10">
                             <h2>01</h2>
-                            <h3>Reserch 1</h3>
+                            <h3>Research 1</h3>
                             <p className="R-para p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolore laborum, porro voluptatem temporibus, perspiciatis, eligendi molestiae eveniet nesciunt sunt officia rerum eaque.</p>
                           </div>
                           <div className="imgg" style={{"background" : `url(${img})`}}>

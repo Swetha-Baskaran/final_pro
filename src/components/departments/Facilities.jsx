@@ -5,13 +5,6 @@ import fac3 from "../../images/dc2.jpg"
 import fac4 from "../../images/dc1.jpg"
 import fac6 from "../../images/hard1.jpg"
 import fac5 from "../../images/hard2.jpg"
-import fac8 from "../../images/info2.jpg"
-import fac7 from "../../images/info1.jpg"
-import fac9 from "../../images/micro1.jpg"
-import fac10 from "../../images/prob1.jpg"
-import fac11 from "../../images/prob2.jpg"
-import fac12 from "../../images/rl1.jpg"
-import fac13 from "../../images/sr1.png"
 
 
 const Facilities = () => {
@@ -24,7 +17,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >SRINIVASA RAMANUJAN COMPUTING CENTRE</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
@@ -39,7 +32,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >DISTRIBUTED COMPUTING LAB</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
@@ -53,7 +46,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >RESEARCH LABORATORY:</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
@@ -67,7 +60,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >SRINIVASA RAMANUJAN COMPUTING CENTRE</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
@@ -81,7 +74,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >HARDWARE AND TROUBLE SHOOTING LAB</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
@@ -95,7 +88,7 @@ const Facilities = () => {
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >APPLICATION LAB</h3>
           </div>
-          <div className="details_of_fac text-3xl text-left pt-5">
+          <div className="details_of_fac text-2xl text-left pt-5">
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..
             Equipped with state of the art machines including a Super Computer PARAM with transputers. This centre also functions as an Internet browsing Centre with 64Kbps-leased line from STPI..

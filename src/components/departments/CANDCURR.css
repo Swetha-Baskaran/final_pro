@@ -25,17 +25,18 @@ body {
 .ccCard{
   width: 400px;
    max-width: 86%;
-   min-height: 500px;
+   /* min-height: 500px; */
    padding: 1rem;
    position: relative;
    border-radius: 4px;
-  box-shadow: -6px 2px 26px #8f202000, inset 0px 0px 5px 8px #fdfdfd, inset 8px -9px 6px -5px #e0d3d31f, inset -7px 10px 6px -5px #13131336, 5px -5px 26px #5e5e5e1f;
-  background: var(--bodyB);
+   box-shadow: -6px 2px 26px #8f202000, inset 0px 0px 5px 8px #fdfdfd, inset 8px -9px 6px -5px #e0d3d31f, inset -7px 10px 6px -5px #13131336, 5px -5px 26px #5e5e5e1f;
+   background: var(--bodyB);
    margin: 10vh auto;
    overflow: hidden;
 }
 .ccCard p{
-   text-align: justify;
+    text-align: left;
+    margin: 20px;
 }
 div.ccCard>.cctitle{
     text-align: center;
@@ -68,17 +69,22 @@ div.ccCard>form>input:focus {
     box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
+.ccCard>p{
+    text-align: left;
+    margin: 20px;
+}
+
 .cc-see-more{
     cursor: pointer;
-    padding: 5px 20px;
+    padding: 5px 0px;
     width: 50%;
     font-size: large;
     left: 50%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 3px;
     color: white;
     background: var(--themeC);
-    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    box-shadow: -7px -7px 20px 0px #fff9, 0px 0px 16px 0px #808080, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
     margin-bottom: 20px;
 }
 div.formC>form>button:hover{
@@ -96,7 +102,7 @@ div.ccbottom>a{
 }
 @media only screen and (min-width: 768px) {
     div.ccCard{
-        padding: 1rem 2rem;
+        padding: 4rem 2rem;
     }
     div.ccCard>form>button{
         margin: 2rem 0;

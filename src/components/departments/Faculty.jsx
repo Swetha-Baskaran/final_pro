@@ -97,8 +97,8 @@ function Faculty_single({ Fname }){
                    <div className="big-img">
                       <img src={image} alt="" />
                    </div>  
-                   <div className="big-cont">
-                       <p>Name : {name}</p>   
+                   <div className="big-cont p-10">
+                       <p className='fac-name'>{name}</p>   
                        <p>Specialization : {sub}</p>   
                        <p>Phone : {number}</p>   
                        <p>Email : {msg}</p>  
