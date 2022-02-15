@@ -16,9 +16,9 @@ h1::before{
     height: 50px;
 } */
 .containerr{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     flex-wrap: wrap;
     margin: 35px 0px;
 }
@@ -26,7 +26,7 @@ h1::before{
     position: relative;
     background: #fff;
     /* padding: 50px 40px 50px 40px; */
-    height: 200px;
+    height: 330px;
     margin-top: 21px;
     box-shadow: 0 15px 45px rgb(0 0 0 / 20%);
 }
@@ -91,12 +91,12 @@ h1::before{
     margin: 0px;
 }
 
-.imgg{
-    /* background: url(/src/images/cse.jpg);
-    position: absolute; */
-    width: 700px;
-    height: 200px;
-    right: 0;
-    /* filter: brightness(0.5); */
+.imgg-div{
     z-index: 1111;
+}
+
+.imgg{
+    width: 948px;
+    height: 330px;
+    right: 0;
 }

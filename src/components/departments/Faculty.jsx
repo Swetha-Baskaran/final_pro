@@ -10,6 +10,18 @@ import img6 from "../../images/img6.jpg"
 import img7 from "../../images/img7.jpg"
 import img8 from "../../images/img8.jpg"
 
+import img9 from "../../images/img9.jpg"
+import img10 from "../../images/img10.jpg"
+import img11 from "../../images/img11.jpg"
+import img12 from "../../images/img12.jpg"
+import img13 from "../../images/img13.jpg"
+import img14 from "../../images/img14.jpg"
+import img15 from "../../images/img15.jpg"
+import img16 from "../../images/img16.jpg"
+
+
+// import unknown from "../../images/unknown2.jfif"
+
 //professors
 let facultyData = [
     {
@@ -27,7 +39,7 @@ let facultyData = [
     }
     ,{
         name: "Dr.N.Sreenath, M.Tech.,Ph.D.(IIT-M).,",
-        img: img6,
+        img: img8,
         Subject: "High speed networks, Optical Network",
         messege: "nsreenath@pec.edu",
         number : 9443289642
@@ -60,28 +72,28 @@ let facultyData = [
     },
     {
         name: "Dr. R. Manoharan, M.Tech., Ph.D.,",
-        img: img4,
+        img: img5,
         Subject: "High Speed Networks, Internet Technology, Software Engineering",
         messege: " rmanoharan@pec.edu",
         number : 9443468480
     },
     {
         name: "Dr. F. Sagayaraj Francis, M.Tech., M.B.A., Ph. D.,",
-        img: img4,
+        img: img1,
         Subject: "Database Systems, Graphics, Automata & Management",
         messege: " fsfrancis@pec.edu",
         number :  9443467590
     },
     {
         name: "Dr. (Mrs). R.Kalpana, B.Tech., M.Tech., Ph. D.,",
-        img: img4,
+        img: img2,
         Subject: "OOD, Distributed Computing, Middleware Technology",
         messege: " rkalpana@pec.edu",
         number : 9443051212
     },
     {
         name: "Dr. A. Amuthan, B.Tech., M. E., Ph. D.,",
-        img: img4,
+        img: img3,
         Subject: "Software Engineering , Computer Networks, Network Security",
         messege: " amuthan@pec.edu",
         number : 9444104373
@@ -94,31 +106,31 @@ let facultyData = [
 let associFacultyData = [
     {
         name: "Dr.S.Lakshmana Pandian, B.E., M.E., Ph. D.,",
-        img: facImg,
+        img: img9,
         Subject: " Language Technologies, Compiler Design",
         messege: "lpandian72@pec.edu",
         number : 9443101692
     },{
         name: "Dr. (Mrs.) K. Saruladha, B.Tech., M.Tech., Ph.D.,",
-        img: img6,
+        img: img11,
         Subject: "Ontology matching, Data management, Opinion mining and Sentiment analysis",
         messege: "charuladha@pec.edu",
         number :  9442396080
     },{
         name: "Dr. (Mrs.) J. Jayabharathy, B.Tech., M.Tech., Ph. D.,",
-        img: img2,
+        img: img2,  //unknown
         Subject: "Distributed Computing",
         messege: " bharathyraja@pec.edu",
         number : 9443292660
     },{
         name: "Dr.K.Sathiyamurthy, M.Tech.,Ph. D.,",
-        img: img7,
+        img: img10,
         Subject: "Web Services and Internet Technology, NLP, Information Retrieval, E-Learning.",
         messege: "sathiyamurthyk@pec.edu",
         number : 9443459362
     },{
         name: "Dr. E. Karunakaran, M.Tech., Ph. D.,",
-        img: img3,
+        img: img3, //unknown
         Subject: " Microprocessors, Computer Hardware & Sensor Networks",
         messege: "ekaruna@pec.edu",
         number : 9442156328,
@@ -129,19 +141,19 @@ let associFacultyData = [
 let assisFacultyData = [
     {
         name: "Dr.N. Sivakumar, B.Tech., M.Tech., Ph.D., MHRM",
-        img: img6,
+        img: img15,
         Subject: "Database Management System, Computer Graphics",
         messege: "sivakumar11@pec.edu",
         number : 9840901054
     },{
         name: "Ms.R. Sarala, B.Tech., M.Tech.,",
-        img: img2,
+        img: img2, //unknown
         Subject: "Computer Networks, Software Engineering",
         messege: "sarala@pec.edu",
         number : 9442366902
     },{
         name: "Dr.J.Kumaran @ Kumar, M.C.A.,M.Tech., Ph. D.,",
-        img: img7,
+        img: img7, //unknown
         Subject: "AOP, Programming Languages",
         messege: "kumaran@pec.edu",
         number :  944330076
@@ -149,32 +161,32 @@ let assisFacultyData = [
         name: "Dr.M. Thirumaran, B.Tech., M.Tech., Ph. D.",
         qualification : "Phd, M.tech cse, B.tech",
         Year: 10,
-        img: img3,
+        img: img13,
         Subject: "Automata Languages and Computation, Compiler Design, Web Technology",
         messege: "thirumaran@pec.edu",
         number : 9894593367
     },{
         name: "Dr. (Mrs.) V. Akila, B.E., M.E., Ph. D.,",
-        img: img7,
+        img: img16,
         Subject: "Mining Software Repositories, Social Network Analysis",
         messege: "akila@pec.edu",
         number : 9786853753
     },{
         name: "Dr. (Mrs.) Salini P, B.Tech., M.Tech., Ph.D.,",
-        img: img6,
+        img: img14,
         Subject: "Software Engineering, Information Security, Distributed Computing",
         messege: "salini@pec.edu",
         number : 9994738640
     },{
         name: "Dr. M. Thenmozhi, B.Tech., M.E.,Ph. D.,",
-        img: img4,
+        img: img12,
         Subject: "Data Warehousing and Data Mining, Distributed Computing, Operating Systems, Ontology",
         messege: "thenmozhi@pec.edu",
         number :  9500893708
     },
     {
         name: "Dr. (Mrs.) J. I. Sheeba, B.E., M.E., Ph. D.,",
-        img: img4,
+        img: img4, //unknown
         Subject: "Data Mining, Network Security, Database Management System",
         messege: "sheeba@pec.edu",
         number :   9443084976
@@ -221,7 +233,7 @@ function Faculty_single({ Fname, data }){
                 <div className='our-fac'>{ Fname }</div>
                 <div className="big-in fac-info flex">
                    <div className="big-img">
-                      <img src={image} alt="" />
+                      <img style={{"width" : "440px", "height": "300px"}} src={image} alt="" />
                    </div>  
                    <div className="big-cont p-10">
                        <p className='fac-name'>{name}</p>   

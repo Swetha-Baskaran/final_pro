@@ -1,0 +1,19 @@
+1. Artificial intelligence and robotics
+
+With the global robotics industry forecast to be worth US$80 billion by 2024, a large portion of this growth is down to the strength of interest and investment in artificial intelligence (AI) – one of the most controversial and intriguing areas of computer science research. The technology is still in its early stages, but tech giants like Facebook, Google and IBM are investing huge amounts of money and resources into AI research. There’s certainly no shortage of opportunities to develop real-world applications of the technology, and there’s immense scope for break-through moments in this field.
+
+2. Big data analytics
+
+Back in 2012, the Harvard Business Review branded data science the ‘sexiest job’ of the 21 century. Yes, you read that correctly. There has been a surge in demand for experts in this field and doubled efforts on the part of brands and agencies to boost salaries and attract data science talents. From banking to healthcare, big data analytics is everywhere, as companies increasingly attempt to make better use of the enormous datasets they have, in order to personalize and improve their services.
+
+3. Computer-assisted education
+
+The use of computers and software to assist education and/or training, computer-assisted education brings many benefits and has many uses. For students with learning disabilities, for instance, it can provide personalized instruction and enable students to learn at their own pace, freeing the teacher to devote more time to each individual. The field is still growing but promising, with many educators praising its ability to allow students to engage in active, independent and play-based learning.  
+
+4. Bioinformatics
+
+A fascinating application of big data, bioinformatics, or the use of programming and software development to build enormous datasets of biological information for research purposes, carries enormous potential. Linking big pharma companies with software companies, bioinformatics is growing in demand and offers good job prospects for computer science researchers and graduates interested in biology, medical technology, pharmaceuticals and computer information science.
+
+5. Cyber security
+
+According to the US Bureau of Labor Statistics, cyber security jobs are predicted to grow by 28 percent between 2016 and 2026 – much faster than average for all occupations, and raising concerns about the shortfall in qualified graduates. In February 2015, Barack Obama spoke of the need to “collaborate and explore partnerships that will help develop the best ways to bolster our cyber security.” It’s not hard to understand why he might think so. We live in a hyper-connected world, in which absolutely everything – from banking to dating to governmental infrastructure – is done online. In today’s world, data protection is no longer optional, for either individuals or nations, making this another growing strand of computer science research.  

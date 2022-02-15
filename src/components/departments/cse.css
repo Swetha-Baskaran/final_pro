@@ -5,8 +5,8 @@
 /* faculty img */
 
 .faculty-img{
-    width:80px;
-    height: 80px;
+    width: 100px;
+    height: 81px;
 }
 
 .big-in{
@@ -282,7 +282,7 @@ text-transform: uppercase;
 }
 
 .hod-card{
-    transform: translate(-35px, -335px);
+    /* transform: translate(-35px, -335px); */
 }
 
 /* about part of dept */
@@ -523,4 +523,19 @@ text-transform: uppercase;
         font-size: 12px;
         text-align: left;
     }
+}
+
+@media (max-width: 590px){
+    .hod-card {
+        transform: translate(0, -165px);
+    }
+}
+
+
+.card-cont{
+    right: 50px;
+    top: -265px;
+    position: absolute;
+    display: flex;
+    align-items: center;
 }

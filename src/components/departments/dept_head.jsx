@@ -1,10 +1,13 @@
 import React from "react";
 
-import cse from "../../images/cse.jpg"
 import { BiSearchAlt } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import HodCard from "./hod_card";
+
+import logo from "../../images/PTU_Logo-color.png"
+import cse from "../../images/cse.jpg"
+
 export default function DeptHeader() 
 {
 
@@ -16,7 +19,8 @@ export default function DeptHeader()
         <>
             <div className="deptHead">
                 <div className="header_dept flex justify-around">
-                    <div className="title_dept">
+                    <div className="title_dept flex items-center">
+                        <img src={logo} alt="" style={{"width" : "40px", "height" : "40px", "border" : "none"}} />
                         <h3>Computer Science Department</h3>
                     </div>
                     <div className="searchbar_dept">
@@ -39,7 +43,7 @@ export default function DeptHeader()
               <div className="bars" onClick={()=>{
                      toggle_nav()
               }}><FaBars /></div>
-              <div className="small-navbar md:hidden block">
+              <div className="small-navbar hidden md:hidden block">
                     <Link to="/cse/about" onClick={()=>{toggle_nav()}}>
                     <p>ABOUT</p>
                     </Link>
