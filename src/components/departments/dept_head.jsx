@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 import HodCard from "./hod_card";
 export default function DeptHeader() 
 {
+
+    let toggle_nav = () =>{
+        document.getElementsByClassName("bars")[0].nextSibling.classList.toggle("hidden")
+    }
+
     return(
         <>
             <div className="deptHead">
@@ -23,29 +28,31 @@ export default function DeptHeader()
                     <img src={cse} alt="cse"/>
                 </div>
                 <div>
-                    <HodCard/>
+                    <Link to="/cse/about">
+                       <HodCard/>
+                    </Link>
                 </div>
             </div>
 
 
             <div className="navbar_for_dept">
               <div className="bars" onClick={()=>{
-                      document.getElementsByClassName("bars")[0].nextSibling.classList.toggle("hidden")
+                     toggle_nav()
               }}><FaBars /></div>
-              <div className="small-navbar block">
-                    <Link to="/cse/about">
+              <div className="small-navbar md:hidden block">
+                    <Link to="/cse/about" onClick={()=>{toggle_nav()}}>
                     <p>ABOUT</p>
                     </Link>
-                    <Link to="/cse/faculty">
+                    <Link to="/cse/faculty" onClick={()=>{toggle_nav()}}>
                     <p>FACULTY</p>
                     </Link>
-                    <Link to="/cse/syllabus">
+                    <Link to="/cse/syllabus" onClick={()=>{toggle_nav()}}>
                     <p>CURRICULUM</p>
                     </Link>
-                     <Link to="/cse/research">
+                     <Link to="/cse/research" onClick={()=>{toggle_nav()}}>
                      <p>RESEARCH</p>
                      </Link>
-                    <Link to="/cse/facilities">
+                    <Link to="/cse/facilities" onClick={()=>{toggle_nav()}}>
                     <p>FACILITIES</p>
                     </Link>
               </div>

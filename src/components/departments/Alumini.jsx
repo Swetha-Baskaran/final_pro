@@ -64,7 +64,7 @@ import { TiSocialFacebook, TiSocialTwitter, TiSocialLinkedin, TiSocialInstagram 
 
 export default function Alumini(){
     return(
-        <div className="alumini-hold grid grid-cols-2 gap-6 p-20">
+        <div className="alumini-hold block md:grid md:grid-cols-2 gap-6 p-20">
             {
                 details.map((e)=> {
                     return(
