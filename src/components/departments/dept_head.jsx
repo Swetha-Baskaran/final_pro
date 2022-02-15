@@ -12,7 +12,7 @@ export default function DeptHeader()
 {
 
     let toggle_nav = () =>{
-        document.getElementsByClassName("bars")[0].nextSibling.classList.toggle("hidden")
+        document.getElementsByClassName("small-navbar")[0].classList.toggle("hidden")
     }
 
     return(
@@ -31,9 +31,6 @@ export default function DeptHeader()
                 <div className="imgsec">
                     <img src={cse} alt="cse"/>
                 </div>
-                {/* <div>
-                    <Link to="/cse/about"><HodCard/></Link>
-                </div> */}
             </div>
 
 

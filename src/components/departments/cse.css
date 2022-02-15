@@ -52,13 +52,20 @@
 
 .small-cards{
     background: #8080801a;
-    margin: 10px 0px;
+    margin: 15px 0px;
     padding: 20px 0px 20px 32px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 6px #938c8c8f;
 }
 
 .fac-name{
     font-size: 23px;
     font-weight: bolder;
+}
+
+.fac-name2{
+    font-weight: 700;
+    color: black;
 }
 
 .parts2{
@@ -221,7 +228,7 @@ image_for_dept{
     border-radius: 35px;
     background: rgba(87, 87, 87, 0.75);
     outline: none;
-    height: 100%;
+    height: 28px;
     width: 100%;
     color: #fff;
     padding: 4px 12px;
@@ -271,6 +278,8 @@ image_for_dept{
     padding: .9rem 1.5rem;
     display: flex;
     align-items: center;
+    font-size: 23px;
+    font-weight: 600;
 
 }
 

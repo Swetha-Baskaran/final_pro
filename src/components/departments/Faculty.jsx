@@ -19,7 +19,7 @@ import img14 from "../../images/img14.jpg"
 import img15 from "../../images/img15.jpg"
 import img16 from "../../images/img16.jpg"
 
-
+import unknown from "../../images/Unknown_person.jpg"
 // import unknown from "../../images/dont_.jfif"
 
 //professors
@@ -86,14 +86,14 @@ let facultyData = [
     },
     {
         name: "Dr. (Mrs). R.Kalpana, B.Tech., M.Tech., Ph. D.,",
-        img: img2,
+        img: unknown,
         Subject: "OOD, Distributed Computing, Middleware Technology",
         messege: " rkalpana@pec.edu",
         number : 9443051212
     },
     {
         name: "Dr. A. Amuthan, B.Tech., M. E., Ph. D.,",
-        img: img3,
+        img: unknown,
         Subject: "Software Engineering , Computer Networks, Network Security",
         messege: " amuthan@pec.edu",
         number : 9444104373
@@ -118,7 +118,7 @@ let associFacultyData = [
         number :  9442396080
     },{
         name: "Dr. (Mrs.) J. Jayabharathy, B.Tech., M.Tech., Ph. D.,",
-        img: img2,  //unknown
+        img: unknown,  //unknown
         Subject: "Distributed Computing",
         messege: " bharathyraja@pec.edu",
         number : 9443292660
@@ -130,7 +130,7 @@ let associFacultyData = [
         number : 9443459362
     },{
         name: "Dr. E. Karunakaran, M.Tech., Ph. D.,",
-        img: img3, //unknown
+        img: unknown, //unknown
         Subject: " Microprocessors, Computer Hardware & Sensor Networks",
         messege: "ekaruna@pec.edu",
         number : 9442156328,
@@ -147,13 +147,13 @@ let assisFacultyData = [
         number : 9840901054
     },{
         name: "Ms.R. Sarala, B.Tech., M.Tech.,",
-        img: img2, //unknown
+        img: unknown, //unknown
         Subject: "Computer Networks, Software Engineering",
         messege: "sarala@pec.edu",
         number : 9442366902
     },{
         name: "Dr.J.Kumaran @ Kumar, M.C.A.,M.Tech., Ph. D.,",
-        img: img7, //unknown
+        img: unknown, //unknown
         Subject: "AOP, Programming Languages",
         messege: "kumaran@pec.edu",
         number :  944330076
@@ -186,7 +186,7 @@ let assisFacultyData = [
     },
     {
         name: "Dr. (Mrs.) J. I. Sheeba, B.E., M.E., Ph. D.,",
-        img: img4, //unknown
+        img: unknown, //unknown
         Subject: "Data Mining, Network Security, Database Management System",
         messege: "sheeba@pec.edu",
         number :   9443084976
@@ -197,7 +197,7 @@ let assisFacultyData = [
 let programmer = [
     {
         name: "Dr. (Mrs.) R. Kavitha Kumar, M.Sc., M.Phil., Ph. D.,",
-        img: facImg,
+        img: unknown, //unknown
         Subject: "OOPS, Web Design, Pervasive Computing",
         messege: "rkavithakumar@pec.edu",
         number : 210800
@@ -240,8 +240,8 @@ function Faculty_single({ Fname, data }){
                        <p>Specialization : {sub}</p>   
                        <p>Phone : {number}</p>   
                        <p>Email : {msg}</p>  
-                          <br />
-                       <p className='underline'>see complete profile</p>   
+                          {/* <br /> */}
+                       {/* <p className='underline'>see complete profile</p>    */}
                     </div>       
                 </div>
             </div>
@@ -254,7 +254,7 @@ function Faculty_single({ Fname, data }){
                                  <img  className="faculty-img" src={e.img} alt="" />
                              </div>
                              <div className="parts2 px-5">
-                                 <h5 className='text-bold'>{e.name}</h5>
+                                 <h5 className='fac-name2'>{e.name}</h5>
                                  <h6>{e.Subject}</h6>
                              </div>
                          </div>
