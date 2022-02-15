@@ -241,11 +241,11 @@ image_for_dept{
 }
 
 .title_dept h3{
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     color: #FFFFFF;
-/* background: rgba(0, 0, 0, 0.55); */
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF;
-text-transform: uppercase;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-left: 80px;
 }
 
 .navbar_for_dept{
@@ -281,9 +281,9 @@ text-transform: uppercase;
     align-items: center;
 }
 
-.hod-card{
+/* .hod-card{
     /* transform: translate(-35px, -335px); */
-}
+
 
 /* about part of dept */
 
@@ -538,4 +538,19 @@ text-transform: uppercase;
     position: absolute;
     display: flex;
     align-items: center;
+}
+
+.log{
+    position: absolute;
+}
+
+.img-top{
+    width: 120px;
+    height: 120px;
+    border: none;
+    position: absolute;
+    transform: translate(-8px, 26px);
+    background: #00000047;
+    border-radius: 50%;
+    padding: 12px;
 }

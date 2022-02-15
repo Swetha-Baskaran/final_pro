@@ -23,7 +23,9 @@ export default function Cse(){
             <Route path="/" element={<DeptLandingPage/>} />
         </Routes>
         <Routes>
-            <Route path="/about" element={<DeptLandingPage />} />
+            <Route path="/about" element={<> <DeptLandingPage />
+                
+            </>} />
         </Routes>
         <Routes>
             <Route path="/faculty" element={<Faculty />} />

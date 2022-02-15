@@ -20,7 +20,7 @@ import img15 from "../../images/img15.jpg"
 import img16 from "../../images/img16.jpg"
 
 
-// import unknown from "../../images/unknown2.jfif"
+// import unknown from "../../images/dont_.jfif"
 
 //professors
 let facultyData = [

@@ -20,9 +20,9 @@ export default function Testimonial()
                              return (
                             <div className="testi-card">
                                 <div className="card-text">
-                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
-                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
-                                    <pre className="card-p">Lorem ipsum dolor sit amet consectetur.</pre>
+                                    <pre className="card-p">My time at Duke truly changed who I am and who</pre>
+                                    <pre className="card-p">I still want to become professionally</pre>
+                                    <pre className="card-p">and personally..</pre>
                                 </div>
                                 <div className="card-img flex align-center">
                                     <div className="img-pic">
@@ -30,8 +30,8 @@ export default function Testimonial()
                                         <img src={imgs}  className="testi-img" alt="" />
                                     </div>
                                     <div className="img-text">
-                                        <h5>Lorem ipsum</h5>
-                                        <p>Lorem ipsum, dolor sit amet Ut, expedita.</p>
+                                        <h5>Arul</h5>
+                                        <p>Btech CSE, 2007 batch.</p>
                                     </div>
                                 </div>
                             </div>

@@ -62,9 +62,9 @@ export default function Notices()
                         <Link to="/cse/alumini"><li className="not-li my-5">Notable Alumini</li></Link>
                         <li className="not-li my-5">Placement Details</li>
                         <li className="not-li my-5">Medals & Awards</li>
-                        <li className="not-li my-5">Department's Retired Faculties</li>
+                        <li className="not-li my-5">Retired Faculty</li>
                         <li className="not-li my-5">Students</li>
-                        <li className="not-li my-5">Department Events</li>
+                        <li className="not-li my-5">Upcoming Events</li>
                     </ol>
                 </div>
             </div>
