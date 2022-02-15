@@ -22,14 +22,33 @@ export default function DeptHeader()
                 <div className="imgsec">
                     <img src={cse} alt="cse"/>
                 </div>
-                {/* <div>
+                <div>
                     <HodCard/>
-                </div> */}
+                </div>
             </div>
 
 
             <div className="navbar_for_dept">
-              <div className="bars"><FaBars /></div>
+              <div className="bars" onClick={()=>{
+                      document.getElementsByClassName("bars")[0].nextSibling.classList.toggle("hidden")
+              }}><FaBars /></div>
+              <div className="small-navbar block">
+                    <Link to="/cse/about">
+                    <p>ABOUT</p>
+                    </Link>
+                    <Link to="/cse/faculty">
+                    <p>FACULTY</p>
+                    </Link>
+                    <Link to="/cse/syllabus">
+                    <p>CURRICULUM</p>
+                    </Link>
+                     <Link to="/cse/research">
+                     <p>RESEARCH</p>
+                     </Link>
+                    <Link to="/cse/facilities">
+                    <p>FACILITIES</p>
+                    </Link>
+              </div>
               <div className="nav-inside flex justify-center">
                     <Link to="/cse/about">
                     <p>ABOUT</p>

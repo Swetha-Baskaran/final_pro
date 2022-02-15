@@ -301,6 +301,12 @@ text-transform: uppercase;
     line-height: 40px;
 }
 
+.parts h6{
+    text-transform: capitalize;
+    font-size: 19px;
+    text-shadow: 0 0 20px white;
+}
+
 .d-read{
     font-size: 16px;
     background-color: #6471be;
@@ -474,6 +480,15 @@ text-transform: uppercase;
     }
 }
 
+.small-navbar{
+    font-size: 17px;
+    position: absolute;
+    background: red;
+    width: 100%;
+    padding: 24px;
+    transition: 1s;
+}
+
 @media (max-width: 800px){
     .navbar_for_dept{
         justify-content: end;
@@ -483,6 +498,18 @@ text-transform: uppercase;
     }
     .bars{
         display: block;
+    }
+    .hod-card {
+        transform: none;
+    }
+    .card-cont{
+        position: absolute;
+        display: flex;
+        width: 405px;
+        align-items: center;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
