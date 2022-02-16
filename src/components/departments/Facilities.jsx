@@ -12,7 +12,7 @@ const Facilities = () => {
   <div className="flex w-full bg-grey flex-col px-20 pt-10 justify-center items-center">
     <div className="block sm:grid sm:grid-cols-2  md:flex md:flex-col justify-center items-center">
       <div className="fac block md:flex md:flex-row justify-around py-10 ">
-        <img src={fac1}className="p-10" alt="" />
+        <img src={fac1}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >SRINIVASA RAMANUJAN COMPUTING CENTRE</h3>
@@ -25,7 +25,7 @@ const Facilities = () => {
       </div>
      
       <div className="fac block md:flex md:flex-row-reverse justify-around py-10 ">
-        <img src={fac2}className="p-10" alt="" />
+        <img src={fac2}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >DISTRIBUTED COMPUTING LAB</h3>
@@ -37,7 +37,7 @@ const Facilities = () => {
         
       </div>
       <div className="fac block md:flex md:flex-row justify-around py-10 ">
-        <img src={fac3}className="p-10" alt="" />
+        <img src={fac3}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >RESEARCH LABORATORY:</h3>
@@ -49,7 +49,7 @@ const Facilities = () => {
         
       </div>
       <div className="fac block md:flex md:flex-row-reverse justify-around py-10 ">
-        <img src={fac4}className="p-10" alt="" />
+        <img src={fac4}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >HARDWARE AND TROUBLE SHOOTING LAB</h3>
@@ -61,7 +61,7 @@ const Facilities = () => {
         
       </div>
       <div className="fac block md:flex md:flex-row justify-around py-10 ">
-        <img src={fac5}className="p-10" alt="" />
+        <img src={fac5}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >APPLICATION LAB</h3>
@@ -73,7 +73,7 @@ const Facilities = () => {
         
       </div>
       <div className="fac block md:flex md:flex-row-reverse justify-around py-10 ">
-        <img src={fac6}className="p-10" alt="" />
+        <img src={fac6}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >MICROPROCESSOR LABORATORY:</h3>
@@ -85,7 +85,7 @@ const Facilities = () => {
         </div>
 
         <div className="fac block md:flex md:flex-row justify-around py-10 ">
-        <img src={fac5}className="p-10" alt="" />
+        <img src={fac5}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >INFORMATION SECURITY LAB</h3>
@@ -97,7 +97,7 @@ const Facilities = () => {
         
       </div>
       <div className="fac block md:flex md:flex-row-reverse justify-around py-10 ">
-        <img src={fac6}className="p-10" alt="" />
+        <img src={fac6}className="p-10 Facility-img" alt="" />
         <div className="details flex flex-col md:md:w-1/2   mx-5 ">
           <div className="title_of_fac border-red-900 border-b-4 font-bold text-3xl text-slate-500 text-left">
             <h3 className="text-4xl" >PROBLEM SOLVING LAB</h3>

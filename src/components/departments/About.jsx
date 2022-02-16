@@ -71,8 +71,8 @@ const About = () => {
           Computer Science Engineering (CSE) encompasses a variety of topics that relates to computation, like analysis of algorithms, programming languages, program design, software, and computer hardware. Computer Science engineering has roots in electrical engineering, mathematics, and linguistics.CSE programs also include core subjects of theoretical computer science such as theory of computation, numerical methods, machine learning, programming theory and paradigms.
           </p>
           <div className="d-btn-hold text-left">
-             <button className="d-read px-5 py-2 text-white" >
-               Download Overview
+             <button className="d-read px-5 py-2 text-white">
+               <a href="fdfd">Download Overview</a>
              </button>
           </div>
         </div>

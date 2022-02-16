@@ -28,32 +28,32 @@ let facultyData = [
         name: "Dr. G.Zayaraz, B.Tech., M.Tech., Ph. D.,",
         img: facImg,
         Subject: "Software Architecture, Information Security",
-        messege: "gzayaraz@pec.edu",
+        email: "gzayaraz@pec.edu",
         number : 9443958140
     },{
         name: "Dr.D.Loganathan, M.Sc.(Tech.), Ph. D",
         img: img6,
         Subject: "Database Systems, Graphics, Automata & Management",
-        messege: "drloganathan@pec.edu",
+        email: "drloganathan@pec.edu",
         number : 9486018682
     }
     ,{
         name: "Dr.N.Sreenath, M.Tech.,Ph.D.(IIT-M).,",
         img: img8,
         Subject: "High speed networks, Optical Network",
-        messege: "nsreenath@pec.edu",
+        email: "nsreenath@pec.edu",
         number : 9443289642
     },{
         name: "Dr. K. Vivekanandan, B. E., M. Tech.,Ph.D.",
         img: img2,
         Subject: "Software Engineering, Agile Programming",
-        messege: "k.vivekanandan@pec.edu",
+        email: "k.vivekanandan@pec.edu",
         number : 9443777795
     },{
         name: "Dr.E. Ilavarasan, M.Tech., Ph. D",
         img: img7,
         Subject: "Distributed Systems, Microprocessors",
-        messege: "eilavarasan@pec.edu",
+        email: "eilavarasan@pec.edu",
         number :  9443084714
     },{
         name: "Dr. Ka. Selvaradjou, M.Tech., Ph.D.,",
@@ -61,41 +61,41 @@ let facultyData = [
         Year: 10,
         img: img3,
         Subject: " Microprocessors, Computer Hardware & Sensor Networks",
-        messege: "selvaraj@pec.edu",
+        email: "selvaraj@pec.edu",
         number : 9444684258
     },{
         name: "Dr. M. Sugumaran, M.Sc.,M.Phil.,M.Tech.,Ph.d",
         img: img4,
         Subject: "Algorithms, Theoretical ComputerScience, Computer Networks",
-        messege: "sugu@pec.edu",
+        email: "sugu@pec.edu",
         number : 9488829865
     },
     {
         name: "Dr. R. Manoharan, M.Tech., Ph.D.,",
         img: img5,
         Subject: "High Speed Networks, Internet Technology, Software Engineering",
-        messege: " rmanoharan@pec.edu",
+        email: " rmanoharan@pec.edu",
         number : 9443468480
     },
     {
         name: "Dr. F. Sagayaraj Francis, M.Tech., M.B.A., Ph. D.,",
         img: img1,
         Subject: "Database Systems, Graphics, Automata & Management",
-        messege: " fsfrancis@pec.edu",
+        email: " fsfrancis@pec.edu",
         number :  9443467590
     },
     {
         name: "Dr. (Mrs). R.Kalpana, B.Tech., M.Tech., Ph. D.,",
         img: unknown,
         Subject: "OOD, Distributed Computing, Middleware Technology",
-        messege: " rkalpana@pec.edu",
+        email: " rkalpana@pec.edu",
         number : 9443051212
     },
     {
         name: "Dr. A. Amuthan, B.Tech., M. E., Ph. D.,",
         img: unknown,
         Subject: "Software Engineering , Computer Networks, Network Security",
-        messege: " amuthan@pec.edu",
+        email: " amuthan@pec.edu",
         number : 9444104373
     },
     
@@ -108,31 +108,31 @@ let associFacultyData = [
         name: "Dr.S.Lakshmana Pandian, B.E., M.E., Ph. D.,",
         img: img9,
         Subject: " Language Technologies, Compiler Design",
-        messege: "lpandian72@pec.edu",
+        email: "lpandian72@pec.edu",
         number : 9443101692
     },{
         name: "Dr. (Mrs.) K. Saruladha, B.Tech., M.Tech., Ph.D.,",
         img: img11,
         Subject: "Ontology matching, Data management, Opinion mining and Sentiment analysis",
-        messege: "charuladha@pec.edu",
+        email: "charuladha@pec.edu",
         number :  9442396080
     },{
         name: "Dr. (Mrs.) J. Jayabharathy, B.Tech., M.Tech., Ph. D.,",
         img: unknown,  //unknown
         Subject: "Distributed Computing",
-        messege: " bharathyraja@pec.edu",
+        email: " bharathyraja@pec.edu",
         number : 9443292660
     },{
         name: "Dr.K.Sathiyamurthy, M.Tech.,Ph. D.,",
         img: img10,
         Subject: "Web Services and Internet Technology, NLP, Information Retrieval, E-Learning.",
-        messege: "sathiyamurthyk@pec.edu",
+        email: "sathiyamurthyk@pec.edu",
         number : 9443459362
     },{
         name: "Dr. E. Karunakaran, M.Tech., Ph. D.,",
         img: unknown, //unknown
         Subject: " Microprocessors, Computer Hardware & Sensor Networks",
-        messege: "ekaruna@pec.edu",
+        email: "ekaruna@pec.edu",
         number : 9442156328,
     },
 ]
@@ -143,19 +143,19 @@ let assisFacultyData = [
         name: "Dr.N. Sivakumar, B.Tech., M.Tech., Ph.D., MHRM",
         img: img15,
         Subject: "Database Management System, Computer Graphics",
-        messege: "sivakumar11@pec.edu",
+        email: "sivakumar11@pec.edu",
         number : 9840901054
     },{
         name: "Ms.R. Sarala, B.Tech., M.Tech.,",
         img: unknown, //unknown
         Subject: "Computer Networks, Software Engineering",
-        messege: "sarala@pec.edu",
+        email: "sarala@pec.edu",
         number : 9442366902
     },{
         name: "Dr.J.Kumaran @ Kumar, M.C.A.,M.Tech., Ph. D.,",
         img: unknown, //unknown
         Subject: "AOP, Programming Languages",
-        messege: "kumaran@pec.edu",
+        email: "kumaran@pec.edu",
         number :  944330076
     },{
         name: "Dr.M. Thirumaran, B.Tech., M.Tech., Ph. D.",
@@ -163,32 +163,32 @@ let assisFacultyData = [
         Year: 10,
         img: img13,
         Subject: "Automata Languages and Computation, Compiler Design, Web Technology",
-        messege: "thirumaran@pec.edu",
+        email: "thirumaran@pec.edu",
         number : 9894593367
     },{
         name: "Dr. (Mrs.) V. Akila, B.E., M.E., Ph. D.,",
         img: img16,
         Subject: "Mining Software Repositories, Social Network Analysis",
-        messege: "akila@pec.edu",
+        email: "akila@pec.edu",
         number : 9786853753
     },{
         name: "Dr. (Mrs.) Salini P, B.Tech., M.Tech., Ph.D.,",
         img: img14,
         Subject: "Software Engineering, Information Security, Distributed Computing",
-        messege: "salini@pec.edu",
+        email: "salini@pec.edu",
         number : 9994738640
     },{
         name: "Dr. M. Thenmozhi, B.Tech., M.E.,Ph. D.,",
         img: img12,
         Subject: "Data Warehousing and Data Mining, Distributed Computing, Operating Systems, Ontology",
-        messege: "thenmozhi@pec.edu",
+        email: "thenmozhi@pec.edu",
         number :  9500893708
     },
     {
         name: "Dr. (Mrs.) J. I. Sheeba, B.E., M.E., Ph. D.,",
         img: unknown, //unknown
         Subject: "Data Mining, Network Security, Database Management System",
-        messege: "sheeba@pec.edu",
+        email: "sheeba@pec.edu",
         number :   9443084976
     },
 ]
@@ -199,9 +199,72 @@ let programmer = [
         name: "Dr. (Mrs.) R. Kavitha Kumar, M.Sc., M.Phil., Ph. D.,",
         img: unknown, //unknown
         Subject: "OOPS, Web Design, Pervasive Computing",
-        messege: "rkavithakumar@pec.edu",
-        number : 210800
-    }
+        email: "rkavithakumar@pec.edu",
+        number : 0
+    },
+    {
+        name: "Mr.P.Sethuraman ",
+        img: unknown, //unknown
+        Subject: "Junior Instructor",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.N.Shanmugam ",
+        img: unknown, //unknown
+        Subject: "Junior Instructor",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.K.Carounamourthy ",
+        img: unknown, //unknown
+        Subject: "Mechanic",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.D.Soundramoorthy ",
+        img: unknown, //unknown
+        Subject: "Mechanic",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.J.Codandaraman ",
+        img: unknown, //unknown
+        Subject: "Lab. Attendant",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.K.Azhiaselvam ",
+        img: unknown, //unknown
+        Subject: "Lab. Attendant",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.L.Ayyappan",
+        img: unknown, //unknown
+        Subject: "Lab. Attendat",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.Devanandan",
+        img: unknown, //unknown
+        Subject: "Lab. Attendat",
+        email: "",
+        number : 0
+    },
+    {
+        name: "Mr.K.Banugoban",
+        img: unknown, //unknown
+        Subject: "MTS",
+        email: "",
+        number : 0
+    },
     
 ]
 
@@ -211,7 +274,7 @@ export default function Faculty(){
            <Faculty_single Fname="Professors" data={facultyData} />
            <Faculty_single Fname="Associate professors" data={associFacultyData} />
            <Faculty_single Fname="Assistant professors" data={assisFacultyData} />
-           <Faculty_single Fname="programmer" data={programmer} />
+           <Faculty_single Fname="Supporting staff" data={programmer} />
          </>
      ) 
 }
@@ -222,7 +285,7 @@ function Faculty_single({ Fname, data }){
 
     let name = data[state].name  
     let sub = data[state].Subject  
-    let msg = data[state].messege 
+    let msg = data[state].email 
     let number = data[state].number 
     let image = data[state].img
 
@@ -236,12 +299,17 @@ function Faculty_single({ Fname, data }){
                       <img style={{"width" : "440px", "height": "300px"}} src={image} alt="" />
                    </div>  
                    <div className="big-cont p-10">
-                       <p className='fac-name'>{name}</p>   
-                       <p>Specialization : {sub}</p>   
-                       <p>Phone : {number}</p>   
-                       <p>Email : {msg}</p>  
-                          {/* <br /> */}
-                       {/* <p className='underline'>see complete profile</p>    */}
+                       <p className='fac-name'>{name}</p>                          
+                       {
+                          (number === 0) ?  <p>Designation : {sub}</p>  :  <p>Specialization : {sub}</p>  
+                       }
+                        
+                       {
+                          (number === 0) ?  <p></p>  :  <p>Phone : {number}</p>  
+                       }
+                        {
+                          (msg === "") ?  <p></p>  :  <p>Email : {msg}</p>  
+                       }
                     </div>       
                 </div>
             </div>

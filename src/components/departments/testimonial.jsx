@@ -2,7 +2,7 @@ import React from 'react';
 
 import './cse.css';
 
-import imgs from "../../images/en4.jpg"
+import imgs from "../../images/Unknown_person.jpg"
 
 
 export default function Testimonial()
@@ -20,9 +20,9 @@ export default function Testimonial()
                              return (
                             <div className="testi-card">
                                 <div className="card-text">
-                                    <pre className="card-p">My time at Duke truly changed who I am and who</pre>
-                                    <pre className="card-p">I still want to become professionally</pre>
-                                    <pre className="card-p">and personally..</pre>
+                                    <pre className="card-p">My time at Duke truly changed who</pre>
+                                    <pre className="card-p">I am and who I still want to become</pre>
+                                    <pre className="card-p">professionally and personally..</pre>
                                 </div>
                                 <div className="card-img flex align-center">
                                     <div className="img-pic">
@@ -30,7 +30,7 @@ export default function Testimonial()
                                         <img src={imgs}  className="testi-img" alt="" />
                                     </div>
                                     <div className="img-text">
-                                        <h5>Arul</h5>
+                                        <h5>Arul B</h5>
                                         <p>Btech CSE, 2007 batch.</p>
                                     </div>
                                 </div>
