@@ -20,9 +20,9 @@ export default function Testimonial()
                              return (
                             <div className="testi-card">
                                 <div className="card-text">
-                                    <pre className="card-p">My time at Duke truly changed who</pre>
-                                    <pre className="card-p">I am and who I still want to become</pre>
-                                    <pre className="card-p">professionally and personally..</pre>
+                                    <p className="card-p">My time at Duke truly changed who </p>
+                                    <p className="card-p">I am and who I still want to become</p>
+                                    <p className="card-p">professionally and personally..</p>
                                 </div>
                                 <div className="card-img flex align-center">
                                     <div className="img-pic">

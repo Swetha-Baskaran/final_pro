@@ -162,7 +162,7 @@ image_for_dept{
 }
 
 .card-text{
-    width: 450px;
+    width: 405px;
     height: auto;
     background: var(--color);
     box-shadow: 0 0 20px 8px #cfcaca24;
@@ -452,7 +452,7 @@ image_for_dept{
 }
 
 .card-p{
-    word-break: break-all;
+    word-break: break-all !important;
 }
 
 .update-part{
@@ -504,6 +504,11 @@ image_for_dept{
     width: 100%;
     padding: 24px;
     transition: 1s;
+}
+
+.small-navbar a{
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 800px){

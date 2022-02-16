@@ -72,7 +72,7 @@ const About = () => {
           </p>
           <div className="d-btn-hold text-left">
              <button className="d-read px-5 py-2 text-white">
-               <a href="fdfd">Download Overview</a>
+               <a href="http://beta.ptuniv.edu.in/edu/dept/cse/Flipbook-Final-main/Flipbook/magazine/">Download Brochure </a>
              </button>
           </div>
         </div>
